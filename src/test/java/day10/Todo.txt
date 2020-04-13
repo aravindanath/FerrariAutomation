@@ -1,0 +1,10 @@
+.txt -- not imp
+
+.properties -- done creating reusable write to prop
+    .ini
+.xlsx poi / fillo
+
+db reading jdbc
+fakedata generation.
+
+
