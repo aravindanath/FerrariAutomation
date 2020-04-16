@@ -13,14 +13,14 @@ public class ReadIniFile {
 	public static void main(String[] args) throws Exception {
 		
 		
-//		  String path = System.getProperty("user.dir")+ File.separator+"testData"+File.separator+"demo.ini";
-//		  
-//		  FileInputStream fis = new FileInputStream(path);
-//		  Ini ini = new Ini();
-//		  ini.load(fis);
-//		  String val =ini.get("tc002", "url");
-//		  System.out.print(val);
-//		  
+		  String path = System.getProperty("user.dir")+ File.separator+"testData"+File.separator+"demo.ini";
+		  
+		  FileInputStream fis = new FileInputStream(path);
+		  Ini ini = new Ini();
+		  ini.load(fis);
+		  String val =ini.get("tc002", "url");
+		  System.out.print(val);
+		  
 		 System.out.println(Genric.getVal("tc002", "url", "demo")); ;
 		  
 	        
