@@ -13,12 +13,12 @@ public class DemoArrays2 {
 		 
 		 System.out.println(std.length);
 		 
-		 for(String str : std) {
-			 System.out.println(str);
-		 }
-	 
+		for(String str : std) {
+			System.out.println(str);
+		}
 
-		 for(int i=0;i<std1.length;i++) {
+
+		for(int i=0;i<std1.length;i++) {
 			 System.out.println(std1[i]);
 		 }
 		 
