@@ -1,6 +1,8 @@
 package day8;
 
-public class Kar extends MinOFTransport{
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
+public class Kar extends MinOFTransport implements CovidTaskForce,MinOFHealth{
 
  
 	void roadways() {
@@ -20,6 +22,19 @@ public class Kar extends MinOFTransport{
 		k.airways();
 		k.waterways();
 		k.roadways();
+		k.lockdown();
+		k.takeHQC();
 		
+	}
+
+
+	public void lockdown() {
+		System.out.println("Bangalore is fully lockdown");
+
+	}
+
+	@Override
+	public void takeHQC() {
+		System.out.println("Affected ppl  need to take HQC");
 	}
 }
