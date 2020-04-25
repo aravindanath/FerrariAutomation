@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-import sun.lwawt.macosx.CSystemTray;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
