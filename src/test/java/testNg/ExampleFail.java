@@ -1,9 +1,10 @@
 package testNg;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
  
 
-public class Annotaion {
+public class ExampleFail {
 	
 	@BeforeTest
 	public void bt() {
@@ -22,7 +23,14 @@ public class Annotaion {
 
 	@Test
 	public void test2() {
+		
 		System.out.println("test 2");
+		int age = 16;
+		
+		if(age<=18) {
+			Assert.fail("Age is < 18");
+		}
+		
 	}
 
 

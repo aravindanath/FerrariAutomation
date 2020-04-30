@@ -1,9 +1,13 @@
 package testNg;
 
+import static org.testng.Assert.fail;
+
+import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.*;
  
 
-public class Annotaion {
+public class ExampleSkip {
 	
 	@BeforeTest
 	public void bt() {
@@ -22,13 +26,22 @@ public class Annotaion {
 
 	@Test
 	public void test2() {
+		
 		System.out.println("test 2");
+		int age = 16;
+		
+		if(age<=18) {
+			
+			throw new SkipException("Age < 18");
+		}
+		
 	}
 
 
 	@Test
 	public void test3() {
 		System.out.println("test 3");
+		Assert.fail("Test fail...");
 	}
 
 
