@@ -3,6 +3,7 @@ package testNg;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class TC1 extends BaseClass{
 	
@@ -12,6 +13,7 @@ public class TC1 extends BaseClass{
 
 	@Test(priority=3)
 	public void search() {
+		driver.get("https://www.facebook.com");
 		System.out.println("ipad pro 2020");
 	}
 	

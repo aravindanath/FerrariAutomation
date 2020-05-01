@@ -3,17 +3,21 @@ package testNg;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class TC3 extends BaseClass{
 	
 	/**
 	 * Amazon end2end shopping
+	 * @throws InterruptedException 
 	 */
 	
  
 	
 	@Test(priority=3)
-	public void search() {
+	public void search() throws InterruptedException     {
+		driver.get("https://www.google.com");
+		Thread.sleep(2000);
 		System.out.println("ipad pro 2020");
 	}
 	
