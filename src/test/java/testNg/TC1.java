@@ -1,10 +1,14 @@
 package testNg;
 
+import org.testng.Assert;
+import org.testng.SkipException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
+//@Listeners(ReportGeneration.class)
 public class TC1 extends BaseClass{
 	
 	/**
@@ -30,10 +34,12 @@ public class TC1 extends BaseClass{
 	@Test(priority=6)
 	public void addToCart() {
 		System.out.println("add to cart");
+		throw new SkipException("Skipping");
 	}
 	@Test(priority=7)
 	public void addAddress() {
 		System.out.println("add address");
+		Assert.fail("Fail..");
 	}
 	@Test(priority=8)
 	public void payment() {
