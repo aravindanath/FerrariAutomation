@@ -1,4 +1,4 @@
-package browser;
+package browsers;
 
 import java.io.File;
 

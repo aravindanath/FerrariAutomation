@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import browser.LaunchChromeUsingWM;
+import browsers.LaunchChromeUsingWM;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;

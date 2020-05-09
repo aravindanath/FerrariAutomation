@@ -3,17 +3,18 @@ package browsers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LaunchChromeUsingWM {
-
+public class LaunchBrowser {
+	
 	protected WebDriver driver;
 	String browser = "chrome";
 
-	@BeforeTest
+	@BeforeClass
 	public void openBrowser() {
 		// System.setProperty("webdriver.chrome.driver",
 		// "/Users/aravindanathdm/Documents/drivers/chromedriver");
@@ -27,5 +28,10 @@ public class LaunchChromeUsingWM {
 	}
 
 	
+	@AfterClass
+	public void closeBrowser() throws InterruptedException {
+		Thread.sleep(2000);
+		driver.quit();
+	}
 
 }
