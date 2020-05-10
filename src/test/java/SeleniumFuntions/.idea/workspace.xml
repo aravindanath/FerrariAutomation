@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9df20c2e-40e8-471c-acb1-cbefe1b7227e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day11/JavaBasic8.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/classes/META-INF/maven/Ferrari.com/FerrariAutomation/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/classes/META-INF/maven/Ferrari.com/FerrariAutomation/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/classes/META-INF/maven/Ferrari.com/FerrariAutomation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/classes/META-INF/maven/Ferrari.com/FerrariAutomation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/test-classes/day8/Kar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/test-classes/day8/Kar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/test-classes/testNg/Annotaion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/test-classes/testNg/Annotaion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/junitreports/TEST-testNg.Annotaion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/junitreports/TEST-testNg.Annotaion.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test-output/testng-results.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1bhyH5I9ppUPXhI1MV2deNtX1Bn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9df20c2e-40e8-471c-acb1-cbefe1b7227e" name="Default Changelist" comment="" />
+      <created>1589098528838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589098528838</updated>
+    </task>
+    <servers />
+  </component>
+</project>
