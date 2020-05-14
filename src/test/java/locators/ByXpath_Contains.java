@@ -18,7 +18,7 @@ public class ByXpath_Contains extends LaunchBrowser  {
 		driver.navigate().back();
 		Thread.sleep(2000);
 		try {
-			driver.findElement(By.xpath("//a[contains(text(),'Customer Service') and @tabindex=30]")).click();
+			driver.findElement(By.xpath("//a[contains(text(),'Customer Service')")).click();
 		}catch (Exception e){
 			e.printStackTrace();
 		}
@@ -27,6 +27,12 @@ public class ByXpath_Contains extends LaunchBrowser  {
 
 		driver.findElement(By.xpath("//span[contains(text(),'Hello')]")).click();
 		Thread.sleep(2000);
+		
+
+		driver.navigate().back();
+		Thread.sleep(2000);
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Book by Steve job");
+		driver.findElement(By.xpath("//input[contains(@type,'sub') and @value='Go']")).click();
 	}
 
 

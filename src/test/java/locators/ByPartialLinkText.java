@@ -13,9 +13,9 @@ public class ByPartialLinkText extends LaunchBrowser  {
 		
 		driver.get("https://www.google.com");
 		Thread.sleep(2000);
-		driver.findElement(By.partialLinkText("Imag")).click();
+		driver.findElement(By.partialLinkText("Ima")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.name("q")).sendKeys("Boston ", Keys.ENTER);
+		driver.findElement(By.name("q")).sendKeys("Boston city ", Keys.ENTER);
 		Thread.sleep(2000);
 		
 	}
