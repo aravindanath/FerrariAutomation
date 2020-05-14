@@ -13,7 +13,7 @@ public class ByXpath_TextFunction extends LaunchBrowser  {
 		
 		driver.get("https://www.amazon.in");
 
-		driver.findElement(By.xpath("//span[text()='Hello. Sign in' or text()='Hello, Sign in' ]")).click();
+		driver.findElement(By.xpath("//span[text()='Hello, Sign in' or text()='Hello. Sign in']")).click();
 
 		Thread.sleep(2000);
 
