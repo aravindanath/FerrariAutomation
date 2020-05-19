@@ -2,6 +2,7 @@ package locators;
 
 import browsers.LaunchBrowser;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class ByXpath_preceeding_axisFunction extends LaunchBrowser  {
@@ -19,12 +20,27 @@ public class ByXpath_preceeding_axisFunction extends LaunchBrowser  {
 		System.out.println(web);
 		//
 
-		String table = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr/td[2][contains(text(),'NAME')]//preceding-sibling::td".replace("NAME",name))).getText();
-		System.out.println(table);
+		String lastName = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr/td[2][contains(text(),'NAME')]//preceding-sibling::td".replace("NAME",name))).getText();
+		System.out.println(lastName);
 
 		Thread.sleep(5000);
-
+		
+		
+		driver.get("https://www.facebook.com/");
+		String gender = "Female";
+		
+		
+		driver.findElement(By.xpath("//label[text()='GEN']//preceding-sibling::input".replace("GEN", gender))).click();;
+		Thread.sleep(5000);
+		WebElement gen =driver.findElement(By.xpath("//label[text()='GEN']//preceding-sibling::input".replace("GEN", gender)));
+		if(gen.isSelected()) {
+			String m = "Male";
+			driver.findElement(By.xpath("//label[text()='GEN']//preceding-sibling::input".replace("GEN", m))).click();;
+		}
+		Thread.sleep(5000);
 	}
+	
+	
 
 
 }
